@@ -17,6 +17,7 @@ public:
   float cost;
   good(){*name=' '; code=0; *unit=' ';cost=0; };
 };
+
   void change(good &a, char *name_, short int code_, char *unit_, float cost_);
   void show();
   void sort();
